@@ -4,6 +4,7 @@
 # What did I look?
 - An `infix` modifier: you can make a function which can be invoked by *infix call*.
 - The `to` function: you can make a pair of elements.
+- A *destructuring declaration*: You can initialize two variables with elements of a `Pair` instance.
 
 # Codes
 ## Creating a map with an *infix call*
