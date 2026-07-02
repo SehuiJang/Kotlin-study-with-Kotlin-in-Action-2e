@@ -60,7 +60,7 @@ flowchart TB
     F["&quot;one&quot;"]
 
     A -- "to" --> C
-    B --> C
+    B -- "to" --> C
 
     C --> D
     D --> E
