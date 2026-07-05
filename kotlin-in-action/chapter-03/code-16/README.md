@@ -154,3 +154,9 @@ fun main() {
   - Since the validation logic is an extension function of the `User` class, you can invoke it **as if it is a regular member function**.
   - Simultaneously, the validation logic is not a regular member function but **just an extension function in fact**. So, the code of the `User` class actually **remains clear**!
   - In the `saveUser4` function, the code relevent to the validation of a `User` instance is just one line! So, you can focus on the subsequent logic for saving user information.
+
+# Notes
+- You can declare **extension functions as local functions**.
+  - You can put `User.validateBeforeSave` into `saveUser`.
+- Even so, excessively nested local functions usually shows poor readability.
+  - Nesting functions is just recommended **up to one level**.
