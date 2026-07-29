@@ -3,7 +3,7 @@
 
 # What did I look?
 - *Secondary* constructors of a class
-- The way to invoke constructors of a superclass through secondary constructors.
+- The way to invoke a superclass constructor through secondary constructors.
 
 # Secondary constructors
 ## TIP: When secondary constructors are unnecessary?
