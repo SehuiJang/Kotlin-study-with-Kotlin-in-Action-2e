@@ -3,7 +3,9 @@
 
 # What did I look?
 - The case in which an interface contains abstract property declarations
-
+  - The property declarations in the interface are not supposed to have its backing field.
+  - Even so, the property in the interface can have a custom getter (and setter), and it is not an abstract property in that case.
+- How to override the property declarations in the interface
 
 # Codes
 ## An `interface` with an abstract property declaration
@@ -67,6 +69,7 @@ Here, `nickname` is overridden by a property initializer.
 Definitely, properties declared in `interface` cannot have their backing field.  
 Even so, interfaces are not limited to abstract property declarations.
 - They can also contain properties with custom getters and setters.
+- These properties are not an abstract properties.
 
 ```kotlin
 interface EmailUser {
