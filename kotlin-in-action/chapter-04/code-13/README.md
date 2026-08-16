@@ -64,7 +64,7 @@ Kotlin neatly solves the drawback of manual delegation with the `by` keyword.
 **Note that:**
 > Class delegation with `by` keyword is a compiler-supported way to avoid manual forwarding boilerplate.  
 > When a class implements an interface using `by`, the compiler generates implementations for the interface members that are not explicitly overridden in the class.  
-> Those generated implementations forward calls to the delegate object.
+> Those generated implementations forward calls to the delegate object.  
 > Thus, you can avoid the source code cluttered with boilerplate.
 
 
