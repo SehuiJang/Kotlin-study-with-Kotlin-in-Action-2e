@@ -1,5 +1,5 @@
 # What chapter in 'Kotlin in Action'?
-- Chapter 4.3.3 Class delegation: Using the by keyword (2/e version)
+- Chapter 4.3.3 Class delegation: Using the `by` keyword (2/e version)
 
 # What did I look?
 - What is class delegation?
