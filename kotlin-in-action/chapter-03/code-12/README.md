@@ -49,16 +49,17 @@ fun main() {
     - Right after that, `number` and `name` get the value `1` and `"one"`, respectively.
 
 ```mermaid
+
 flowchart TB
     A["1"]
-    B["&quot;one&quot;"]
+    B["#quot;one#quot;"]
 
-    C["Pair(1, &quot;one&quot;)"]
+    C["Pair(1, #quot;one#quot;)"]
 
     D["val (number, name)"]
 
     E["1"]
-    F["&quot;one&quot;"]
+    F["#quot;one#quot;"]
 
     A -- "to" --> C
     B -- "to" --> C
@@ -68,6 +69,7 @@ flowchart TB
     D --> F
 
     style D fill:transparent,stroke:transparent,color:#333
+
 ```
 
 ## Applying it to loops
